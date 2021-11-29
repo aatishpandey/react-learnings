@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
 
 *{
     box-sizing: border-box;
@@ -28,7 +28,8 @@ body{
     margin-top: 44px;
     margin-left: 116px;
     margin-right: 116px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .container{
@@ -37,9 +38,10 @@ body{
     color: white;
     margin: auto;
     text-align: center;
+    overflow: hidden;
 }
 
-#main-content{
+.main-content{
     background-color: #1A1B21;
     margin-left: 116px;
     margin-right: 116px;
@@ -47,7 +49,7 @@ body{
     overflow: hidden;
 }
 
-#main-content > h2{
+.main-content > h2{
     font-size: 25px;
     color: white;
     font-weight: 700;
@@ -55,7 +57,7 @@ body{
     line-height: 30.26px;
 }
 
-#main-content > h3{
+.main-content > h3{
     margin-top: 8px;
     color: #F3BF99;
     font-size: 12.8px;
@@ -63,7 +65,7 @@ body{
     line-height: 15.49px;
 }
 
-#main-content > p{
+.main-content > p{
     margin-top: 10px;
     font-size: 11px;
     color: white;
@@ -108,4 +110,45 @@ body{
     width: 17px;
     margin-right: 5px;
     background-color: white;
+}
+
+#about{
+    padding-left: 36px;
+    padding-right: 36px;
+    text-align:left;
+    padding-bottom: 30px;
+}
+
+#about > h2{
+    font-size: 16px;
+}
+
+#about > p{
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+#social{
+    background-color: #161619;
+    margin-left: 116px;
+    margin-right: 116px;
+    margin-bottom: 44px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.socialIcons{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 25px;
+    margin-left: 11px;
+    margin-right: 11 px;
+}
+
+#twitt{
+    margin-left: 75px;
+}
+
+#gitt{
+    margin-right: 75px;
 }

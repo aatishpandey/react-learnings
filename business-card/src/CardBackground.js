@@ -1,7 +1,7 @@
 import React from 'react';
-import hero from './MainHero.png';
-import emailIcon from './email-icon.png';
-import linkIcon from './link-icon.png';
+import hero from './images/MainHero.png';
+import emailIcon from './icons/email-icon.png';
+import linkIcon from './icons/link-icon.png';
 // import ReactDOM from 'react-dom';
 
 export default function CardBackground(){
@@ -9,7 +9,7 @@ export default function CardBackground(){
         <div className = "container">
             <img src={hero} id="main-hero" />
 
-            <div id="main-content">
+            <div className="main-content">
                 <h2>Aatish Pandey</h2>
                 <h3>Frontend Developer</h3>
                 <p>aatish2302@gmail.com</p>
