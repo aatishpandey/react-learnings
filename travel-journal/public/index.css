@@ -5,13 +5,16 @@
     border: 0;
     font-family: 'Inter', sans-serif;
 }
+body{
+    background-color: rgb(236, 226, 206);
+}
 
 .container{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 550px;
     height: 704px;
     margin: auto;
-    /* background-color: black; */
+    background-color: white;
 }
 
 .navbar{
@@ -28,4 +31,64 @@
 #globe-icon{
     width: 24px;
     margin-right: 10px;
+}
+
+.card{
+    overflow: hidden;
+    display: flex;
+    margin:36px 40px 36px 39px;
+    /* background-color: white; */
+}
+
+.location-image{
+    width: 125px;
+    height: 168px;
+    margin-right: 19px;
+}
+
+.container-info{
+    margin-top: 2px;
+    overflow: hidden;
+    margin-bottom: 0px;
+    /* padding-bottom: 20px; */
+}
+
+.location{
+    font-size: 10.5px;
+    color: #2B283A;
+    font-weight: normal;
+    margin-right: 12px;
+    letter-spacing: 0.17em;
+}
+
+.google-map{
+    font-size: 10.5px;
+    color: #918E9B;
+}
+
+.google-map a{
+    text-decoration: none;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 7px;
+    padding-bottom: 7px;
+    color: #2B283A;
+}
+
+.start-date,.end-date{
+    font-size: 10.5px;
+    font-weight: bold;
+    color: #2B283A;
+}
+
+.desc{
+    font-size: 10.5px;
+    color: #2B283A;
+    margin-top: 9px;
+    line-height: 150%;
+    /* padding-bottom: 20px; */
 }

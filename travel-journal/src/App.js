@@ -4,10 +4,11 @@ import Location from './Components/Location'
 import Navbar from './Components/Navbar'
 
 export default function App() {
-
+  // console.log(data)
   const location = data.map(item => {
     return(
       <Location
+          // pathSymbol = {item.pathSymbol}
           imageUrl = {item.imageUrl}
           title = {item.title}
           location = {item.location}
